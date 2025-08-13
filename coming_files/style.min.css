@@ -52,7 +52,7 @@ html, body, header, .view {
     }
 
     .logo-responsive {
-      max-width: 340px;
+      max-width: 800px;
       width: 100%;
       height: auto;
       margin-bottom: 24px;
@@ -89,7 +89,7 @@ html, body, header, .view {
 
     @media (max-width: 559px) {
       .logo-responsive {
-        max-width: 180px;
+        max-width: 378px;
       }
     }
 
@@ -108,7 +108,7 @@ html, body, header, .view {
 
     @media (min-width: 560px) and (max-width: 740px) {
       .logo-responsive {
-        max-width: 220px;
+        max-width: 464px;
       }
     }
 
