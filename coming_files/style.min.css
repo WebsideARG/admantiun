@@ -1,0 +1,119 @@
+html, body, header, .view {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .view {
+      min-height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-intro {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .mb-4, .my-4 {
+   color: white;
+    font-weight: 200;
+}
+
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+
+    .center-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      z-index: 3;
+    }
+
+    .logo-responsive {
+      max-width: 340px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 24px;
+      transition: max-width 0.3s;
+    }
+
+    .display-4 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+    .display-4 strong {
+      font-family: 'Plus Jakarta Sans', 'Montserrat', Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  
+  margin-bottom: 1rem;
+    }
+
+    .title-shadow {
+  text-shadow: 0 4px 24px rgba(0,0,0,0.4), 0 1px 0 #222;
+}
+
+.subtitle-shadow {
+  text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  color: #e0e0e0;
+  font-size: 2.3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+    @media (max-width: 559px) {
+      .logo-responsive {
+        max-width: 180px;
+      }
+    }
+
+    @media (max-width: 559px) {
+      .display-4{
+       font-size: 2.5rem;
+      }
+    }
+
+      @media (max-width: 559px) {
+      
+       .subtitle-shadow {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (min-width: 560px) and (max-width: 740px) {
+      .logo-responsive {
+        max-width: 220px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
